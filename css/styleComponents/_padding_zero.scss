@@ -1,0 +1,27 @@
+.padding_zero-section{
+    .row{
+        //border: 1px solid red;
+        margin-top: -120px;
+        z-index: 1;
+        .box{
+            text-align: center;
+           // border: 1px solid red;
+            min-height: 250px;
+            .box-wrap{
+                margin: 10px 0;
+                padding: 5px;
+                background-color: white;
+              //  border: 1px solid green;
+                .featured-icon{
+                    text-align: center;
+                    padding: 20px;
+                     img{
+                         width: 45px;
+                         height: 45px;
+                     }
+                 }
+            }   
+        }
+        
+    }   
+}
